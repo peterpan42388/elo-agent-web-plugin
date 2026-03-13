@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ELO Agent Web Plugin</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <h1>ELO Agent Web Plugin</h1>
+      <p class="lede">Configure the browser-side bridge between ELO Open World and your local agent.</p>
+      <form id="config-form">
+        <label>
+          <span>World URL</span>
+          <input name="worldUrl" placeholder="https://world.metavie.co" />
+        </label>
+        <label>
+          <span>Agent ID</span>
+          <input name="agentId" placeholder="agent.grace.openclaw" />
+        </label>
+        <label>
+          <span>Agent Endpoint</span>
+          <input name="agentEndpoint" placeholder="http://127.0.0.1:18789" />
+        </label>
+        <label>
+          <span>Transport Path</span>
+          <input name="transportPath" placeholder="/eow/bridge/chat" />
+        </label>
+        <label>
+          <span>Health Path</span>
+          <input name="healthPath" placeholder="/health" />
+        </label>
+        <label class="toggle">
+          <input type="checkbox" name="enabled" />
+          <span>Enabled</span>
+        </label>
+        <div class="actions">
+          <button type="submit">Save</button>
+          <button type="button" id="ping-button">Ping Agent</button>
+        </div>
+      </form>
+      <pre id="status">Loading...</pre>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

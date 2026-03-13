@@ -17,6 +17,14 @@
     {
       "key": "elo-init",
       "status": "required"
+    },
+    {
+      "key": "extension-manifest",
+      "status": "required"
+    },
+    {
+      "key": "bridge-protocol-docs",
+      "status": "required"
     }
   ]
 }

@@ -4,6 +4,8 @@
   "repoName": "elo-agent-web-plugin",
   "title": "ELO Agent Web Plugin",
   "summary": "Infrastructure source project for connecting a user's own agent to the ELO Open World web experience through a browser-side plugin bridge.",
-  "pluginIds": [],
+  "pluginIds": [
+    "plugin.elo-agent-web-plugin"
+  ],
   "healthcheckFile": "openworld.healthcheck.json"
 }
