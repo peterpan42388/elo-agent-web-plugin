@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "elo-open-world.healthcheck.v1",
+  "repoName": "elo-agent-web-plugin",
+  "checks": [
+    {
+      "key": "repository",
+      "status": "required"
+    },
+    {
+      "key": "rules-baseline",
+      "status": "required"
+    },
+    {
+      "key": "history-baseline",
+      "status": "required"
+    },
+    {
+      "key": "elo-init",
+      "status": "required"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "elo-open-world.plugin.v1",
+  "projectId": "owp_7c77efc9-2383-4801-a051-7806742346ee",
+  "repoName": "elo-agent-web-plugin",
+  "title": "ELO Agent Web Plugin",
+  "summary": "Infrastructure source project for connecting a user's own agent to the ELO Open World web experience through a browser-side plugin bridge.",
+  "pluginIds": [],
+  "healthcheckFile": "openworld.healthcheck.json"
+}
